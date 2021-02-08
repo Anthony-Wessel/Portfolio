@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Plane" },
+    { "type" : "image", "content" : "Images/Art/Plane.png" },
+    { "type" : "paragraph", "content" : "I modelled this plane in Maya for my Game Art class. It was created based on reference images that were provided in class, which I had to clean up in order for them to be good reference while modelling." }
+  ],
+  "type" : "art"
+}

@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Books" },
+    { "type" : "image", "content" : "Images/Art/Books.png" },
+    { "type" : "paragraph", "content" : "This is a simple book model, where I can use my RGB mask shader to easily change the color of the cover without affecting the color of the pages." }
+  ],
+  "type" : "art"
+}

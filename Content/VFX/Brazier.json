@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Fire Shader" },
+    { "type" : "image", "content" : "Images/VFX/Brazier.gif" },
+    { "type" : "paragraph", "content" : "This is a simple fire shader I created in the Unity built-in rendering pipeline. It simply uses scrolling noise and changes the color based on the noise values." }
+  ],
+  "type" : "vfx"
+}

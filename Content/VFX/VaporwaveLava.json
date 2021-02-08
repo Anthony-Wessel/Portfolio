@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Vaporwave Lava Shader" },
+    { "type" : "image", "content" : "Images/VFX/TriangleParticles.gif" },
+    { "type" : "paragraph", "content" : "This is a wireframe lava shader that I created in the Unity High Definition Rendering Pipeline. It uses a noise texture to vary the height of each vertex, giving the impression of waves." }
+  ],
+  "type" : "vfx"
+}

@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Pink Demon" },
+    { "type" : "image", "content" : "Images/Art/Character.jpg" },
+    { "type" : "paragraph", "content" : "I modelled this character for my Game Art class based on provided reference images, and rendered the final image in Maya using the Arnold renderer." }
+  ],
+  "type" : "art"
+}

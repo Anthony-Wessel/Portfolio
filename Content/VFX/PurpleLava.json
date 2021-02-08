@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Purple Lava Shader" },
+    { "type" : "image", "content" : "Images/VFX/PurpleLava.gif" },
+    { "type" : "paragraph", "content" : "This is a lava shader that I created in the Unity High Definition Rendering Pipeline. It started as a mistake in the lava lamp shader which caused a huge change in how the shader looked." }
+  ],
+  "type" : "vfx"
+}

@@ -1,0 +1,10 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Corruption Shader" },
+    { "type" : "image", "content" : "Images/VFX/CorruptionShader.gif" },
+    { "type" : "paragraph", "content" : "This is a vaporwave corruption shader that I created in the Unity High Definition Rendering Pipeline. I created it while working on a capstone project. It is designed to slowly convert an object from the \"normal\" art style to a vaporwave style." },
+    { "type" : "image", "content" : "Images/VFX/Corruption.gif" },
+    { "type" : "image", "content" : "Images/VFX/CorruptionDecal.gif" }
+  ],
+  "type" : "vfx"
+}

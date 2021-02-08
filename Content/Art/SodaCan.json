@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Soda Can" },
+    { "type" : "image", "content" : "Images/Art/PopCan.jpg" },
+    { "type" : "paragraph", "content" : "This was a project for my Game Art class. I was given the soda can model, and had to create all textures for it, including normal textures to add depth to the graphics on the can." }
+  ],
+  "type" : "art"
+}

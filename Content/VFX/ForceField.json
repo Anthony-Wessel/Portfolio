@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Force Field Shader" },
+    { "type" : "image", "content" : "Images/VFX/ForceField.gif" },
+    { "type" : "paragraph", "content" : "This is a force field shader I created in the Unity built-in rendering pipeline. It uses the depth buffer with a fresnel effect to highlight the edges." }
+  ],
+  "type" : "vfx"
+}

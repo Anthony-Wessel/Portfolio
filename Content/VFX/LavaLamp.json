@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Lava Lamp" },
+    { "type" : "image", "content" : "Images/VFX/LavaLamp.gif" },
+    { "type" : "paragraph", "content" : "This is a shader I created in the Unity High Definition Rendering Pipeline. It is meant to resemble a lava lamp." }
+  ],
+  "type" : "vfx"
+}

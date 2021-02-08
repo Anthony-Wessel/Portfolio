@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Banners" },
+    { "type" : "image", "content" : "Images/Art/Banner.png" },
+    { "type" : "paragraph", "content" : "I designed these banners to work with my RGB mask shader, so that I could easily vary them. There are 2 base models mask textures can easily be created for each one, which are then used in the shader to apply any desired color to the different sections of the banner."}
+  ],
+  "type" : "art"
+}

@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Glass Shader" },
+    { "type" : "image", "content" : "Images/VFX/Glass.png" },
+    { "type" : "paragraph", "content" : "This is a simple glass shader I created in the Unity built-in rendering pipeline. It is meant to look like glass for a simple art style, but is not realistic." }
+  ],
+  "type" : "vfx"
+}

@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Bullets" },
+    { "type" : "image", "content" : "Images/Art/Bullet.jpg" },
+    { "type" : "paragraph", "content" : "I modelled this bullet for my Game Art class based on provided reference images, and rendered the final image in Maya using the Arnold renderer." }
+  ],
+  "type" : "art"
+}

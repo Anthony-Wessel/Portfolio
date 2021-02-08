@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Potion Shader" },
+    { "type" : "image", "content" : "Images/VFX/Potion.gif" },
+    { "type" : "paragraph", "content" : "This is a Potion shader that I created in the built-in Unity rendering pipeline. It is used in combination with my glass shader." }
+  ],
+  "type" : "vfx"
+}

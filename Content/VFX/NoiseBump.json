@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Noise Texture Bump" },
+    { "type" : "image", "content" : "Images/VFX/NoiseBump.png" },
+    { "type" : "paragraph", "content" : "This is a basic shader I created in the Unity built-in rendering pipeline. It pushes every vertex out in the direction of its normal based on a noise texture to give it a rocky texture." }
+  ],
+  "type" : "vfx"
+}

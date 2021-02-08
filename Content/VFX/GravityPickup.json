@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Powerup" },
+    { "type" : "image", "content" : "Images/VFX/Gravity-Pickup.gif" },
+    { "type" : "paragraph", "content" : "I created this particle effect using the Unity HDRP VFX graph." }
+  ],
+  "type" : "vfx"
+}

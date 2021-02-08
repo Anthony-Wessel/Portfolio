@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Disintegration Shader" },
+    { "type" : "image", "content" : "Images/VFX/CubeDisintigrate.gif" },
+    { "type" : "paragraph", "content" : "This is a disintegration shader I created in the Unity High Definition Rendering Pipeline while working on my senior capstone project." }
+  ],
+  "type" : "vfx"
+}

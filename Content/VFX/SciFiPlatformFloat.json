@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Floating Platform VFX" },
+    { "type" : "image", "content" : "Images/VFX/SciFi-Platform-Float.gif" },
+    { "type" : "paragraph", "content" : "This is a particle system that I created in the Unity High Definition Rendering Pipeline. It is based on my similar powerup shader, but fixes the particles to a square rather than a circle." }
+  ],
+  "type" : "vfx"
+}

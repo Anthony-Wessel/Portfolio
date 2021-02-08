@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "RGB Mask Shader" },
+    { "type" : "image", "content" : "Images/VFX/RGBMask.png" },
+    { "type" : "paragraph", "content" : "This is a shader that I created in the Unity High Definition Rendering Pipeline. It takes a texture that can be easily split into red, green and blue sections, and replaces each of those with any chosen color, allowing easy variation between objects while using the same model and texture. It also uses a black and white mask texture to block out specific parts of the texture where colors should not be replaced (such as the upper bar in this image)." }
+  ],
+  "type" : "vfx"
+}

@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Chair" },
+    { "type" : "image", "content" : "Images/Art/Chair.jpg" },
+    { "type" : "paragraph", "content" : "This is a chair that I modelled in Maya for my Game Art class." }
+  ],
+  "type" : "art"
+}

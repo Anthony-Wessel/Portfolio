@@ -1,0 +1,9 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Coin Golf" },
+    { "type" : "game", "content" : "Games/CoinGolf/index.html" },
+    { "type" : "paragraph", "content" : "This is a basic game I created in Unity with the Universal Render Pipeline, based on the coin golf minigame in the game Fable." },
+    { "type" : "image", "content" : "Images/Prototypes/CoinGolf.png" }
+  ],
+  "type" : "prototype"
+}

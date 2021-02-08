@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Wireframe Shader" },
+    { "type" : "image", "content" : "Images/VFX/Wireframe.png" },
+    { "type" : "paragraph", "content" : "This is a wireframe shader that I created in the built-in Unity rendering pipeline." }
+  ],
+  "type" : "vfx"
+}

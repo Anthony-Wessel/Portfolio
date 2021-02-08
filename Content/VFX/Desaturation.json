@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Desaturation Shader" },
+    { "type" : "image", "content" : "Images/VFX/Desaturation.gif" },
+    { "type" : "paragraph", "content" : "This is a Desaturation shader I created in the Unity Built-in Rendering Pipeline. It is a very simple shader that approximates the saturation with the RGB values rather than converting to HSV." }
+  ],
+  "type" : "vfx"
+}

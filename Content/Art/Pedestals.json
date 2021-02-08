@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Pedestals" },
+    { "type" : "image", "content" : "Images/Art/Pedestals.png" },
+    { "type" : "paragraph", "content" : "I modelled these pedestal concepts for my senior capstone project." }
+  ],
+  "type" : "art"
+}

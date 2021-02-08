@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Dragon Sword" },
+    { "type" : "image", "content" : "Images/Art/DragonSword.png" },
+    { "type" : "paragraph", "content" : "I created this sword from scratch as a final project for my Game Art class. The objective was to design a sword that was somehow related to dragons. I used Photoshop to concept the sword and to create the final textures, Maya to create the initial 3D-model and to retopo the high poly sculpted model, and Zbrush to sculpt detail onto the model." }
+  ],
+  "type" : "art"
+}

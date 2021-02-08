@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Knife" },
+    { "type" : "image", "content" : "Images/Art/Knife.jpg" },
+    { "type" : "paragraph", "content" : "I modelled this knife in Maya for my Game Art class based on provided reference images." }
+  ],
+  "type" : "art"
+}

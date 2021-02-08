@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Platform" },
+    { "type" : "image", "content" : "Images/Art/Platform.png" },
+    { "type" : "paragraph", "content" : "I modelled this platform for my senior capstone project. It was designed to be a floating platform which the player would land on in between swings." }
+  ],
+  "type" : "art"
+}

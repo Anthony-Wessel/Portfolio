@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Grapple Cube" },
+    { "type" : "image", "content" : "Images/Art/GrappleCube.png" },
+    { "type" : "paragraph", "content" : "I created this cube for my senior capstone project. It was designed to be a floating cube which the player would be able to latch onto with a grapple." }
+  ],
+  "type" : "art"
+}

@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Sculpted Axe" },
+    { "type" : "image", "content" : "Images/Art/Axe.jpg" },
+    { "type" : "paragraph", "content" : "This axe was an assignment for my Game Art class. We were given the initial model and were required to sculpt detail onto the mesh using Zbrush." }
+  ],
+  "type" : "art"
+}

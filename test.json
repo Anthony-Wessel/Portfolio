@@ -1,0 +1,7 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Article Title" },
+    { "type" : "image", "content" : "Images/Bercouli.png" },
+    { "type" : "paragraph", "content" : "This is a test of the Bradley University emergency notification system. This is only a test. This is a test of the Bradley University emergency notification system. This is only a test. This is a test of the Bradley University emergency notification system. This is only a test. This is a test of the Bradley University emergency notification system. This is only a test." }
+  ]
+}

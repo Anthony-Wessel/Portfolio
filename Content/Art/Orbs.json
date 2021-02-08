@@ -1,0 +1,8 @@
+{
+  "contents" : [
+    { "type" : "title", "content" : "Orbs" },
+    { "type" : "image", "content" : "Images/Art/Orbs.png" },
+    { "type" : "paragraph", "content" : "I modelled these orb concepts for my senior capstone project." }
+  ],
+  "type" : "art"
+}
