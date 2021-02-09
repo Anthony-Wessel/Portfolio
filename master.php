@@ -22,7 +22,7 @@ include("dynamicCard.php");
 
   </head>
   <body style= "width: 100%">
-      <!-- Header -->
+      <!-- Header  -->
       <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #111111">
           <a class="navbar-brand ps-2" href="index.php">
               <img src="Images/Logo.png" width="30" height="30"/>
