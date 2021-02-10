@@ -38,6 +38,9 @@ include("dynamicCard.php");
                   <li class="nav-item active">
                       <a class="nav-link" href="about.php">About Me</a>
                   </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="aboutWebsite.php">About This Site</a>
+                  </li>
               </ul>
 
               <ul class="navbar-nav pe-2">
