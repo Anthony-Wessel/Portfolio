@@ -4,7 +4,8 @@
     { "type" : "game", "content" : "Games/MyTerrificTrees/index.html" },
     { "type" : "paragraph", "content" : "This is short game was a group project for a Game Programming class. We developed it in Unity, using Github in order to work on it together remotely." },
     { "type" : "image", "content" : "Images/Prototypes/MyTerrificTrees.png" },
-    { "type" : "paragraph", "content" : "We used an agile development approach, meeting each week to discuss progress and determine which features needed to be worked on next. This allowed us to easily change direction when necessary, and gave each student a chance to work on different features throughout the development process in order to gain experience. I personally worked on the tree placement, desaturation effect, spawning clouds, and the main menu."}
+    { "type" : "paragraph", "content" : "We used an agile development approach, meeting each week to discuss progress and determine which features needed to be worked on next. This allowed us to easily change direction when necessary, and gave each student a chance to work on different features throughout the development process in order to gain experience. I personally worked on the tree placement, desaturation effect, spawning clouds, and the main menu."},
+    { "type" : "paragraph", "content" : "Here is a link to our Github repo for the Unity project: <a href=\"https://github.com/Flight-Convert/My-Terrific-Trees\">My Terrific Trees</a>" }
   ],
   "type" : "prototype"
 }

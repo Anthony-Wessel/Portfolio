@@ -3,7 +3,9 @@
     { "type" : "title", "content" : "Coin Golf" },
     { "type" : "game", "content" : "Games/CoinGolf/index.html" },
     { "type" : "paragraph", "content" : "This is a basic game I created in Unity with the Universal Render Pipeline, based on the coin golf minigame in the game Fable." },
-    { "type" : "image", "content" : "Images/Prototypes/CoinGolf.png" }
+    { "type" : "image", "content" : "Images/Prototypes/CoinGolf.png" },
+    { "type" : "paragraph", "content" : "I spent 2 weeks in total working on this game. I scripted each of the mechanics myself, and created a basic shader to display the arrow that represents the coin's launch force. I created all of the art myself using Blender, and added sound effects that I downloaded from freesound.org." },
+    { "type" : "paragraph", "content" : "Here is a link to my Github repo for the Unity project: <a href=\"https://github.com/Anthony-Wessel/Coin-Golf\">Coin Golf</a>" }
   ],
   "type" : "prototype"
 }
