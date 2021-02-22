@@ -19,6 +19,7 @@ include("dynamicCard.php");
     <script src="Bootstrap/js/bootstrap.min.js"></script>
 
     <title>Anthony's Portfolio</title>
+    <link rel="icon" href="Images/Logo.png" type="image/x-icon">
 
   </head>
   <body style= "width: 100%">
