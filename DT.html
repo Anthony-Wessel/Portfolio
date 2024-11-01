@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+
+  <title>
+    Dwarf Terraria
+  </title>
+
+  <meta name="description" content="Portfolio for Anthony Wessel, Game Programmer, Illinois, United States">
+  <meta name="keywords" content="Anthony Wessel, Unity, Godot, C#, GDScript, Games, Game Programmer, Portfolio, Procedural Generation" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a class = "nav__link" href="index.html">Home</a></li>
+          <li class="nav__item"><a class = "nav__link" href="contact.html">Contact</a></li>
+          <li class="nav__item">
+            <div class="dropdown">
+              <div class="nav__link">Games</div>
+              <div class="dropdown_content">
+                <a class="nav__link" href="DT.html">Dwarf Miner</a>
+                <a class="nav__link" href="CardCounter.html">Card Counter</a>
+                <a class="nav__link" href="CoinGolf.html">Coin Golf</a>
+                <a class="nav__link" href="NeonOblivion.html">Neon Oblivion</a>
+                <a class="nav__link" href="MyTerrificTrees.html">My Terrific Trees</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Dwarf Miner</span>
+        </h1>
+        <p style="margin-top:0px; margin-left:10px;">Download the game at <a style="color:var(--pink)" href="https://anthony-wessel.itch.io/dwarf-miner" target="_blank" rel="noopener noreferrer">itch.io</a></p>
+      </div>
+
+    </div>
+
+  </header>
+
+  <section>
+    <div class="row">
+      <div class="work__box">
+        <div class="work__text">
+          <h2>Highlights</h2>
+          <ul class = "bulleted_list">
+            <li>Dynamic world that can be changed by the player</li>
+            <li>Entire world is procedurally generated</li>
+            <li>Crafting, inventory, building, and combat</li>
+          </ul>
+        </div>
+        <div class="work__image-box">
+          <video autoplay muted loop src="./images/DT.mp4" style="width:100%"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="work__box" style="column-count:2; column-gap: 40px">
+        <div class="work__text">
+          <h2>Terrain Generation</h2>
+          <p style="font-size:20px;">
+            The entire world is procedurally generated using noise textures and
+            compute shaders. I used a built-in noise library from Godot and wrote
+            custom compute shaders to refine the texture as needed. I then used
+            these textures to determine which tiles should be empty, and which
+            should be stone ore some type of ore.
+          </p>
+        </div>
+        <div class="work__image-box">
+          <img src="./images/terrain.png" class="work__image" alt="Project 1" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="work__box" style="column-count:2; column-gap: 40px">
+        <div class="work__text">
+          <h2>Lighting</h2>
+          <p style="font-size:20px;">
+            I created a custom tile-based lighting system for this game which
+            turned out great. Certain tiles are light sources, and this light
+            propagates to adjacent tiles, becoming dimmer the farther it moves.
+            This system also accounts for daylight when outside the caves, and
+            smoothly transitions to the placed light sources when night falls.
+          </p>
+        </div>
+        <div class="work__image-box">
+          <img src="./images/lighting.png" class="work__image" alt="Project 1" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>

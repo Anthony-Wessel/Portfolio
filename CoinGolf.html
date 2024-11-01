@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+
+  <title>
+    Coin Golf
+  </title>
+
+  <meta name="description" content="Portfolio for Anthony Wessel, Game Programmer, Illinois, United States">
+  <meta name="keywords" content="Anthony Wessel, Unity, Godot, C#, GDScript, Games, Game Programmer, Portfolio, Procedural Generation" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a class = "nav__link" href="index.html">Home</a></li>
+          <li class="nav__item"><a class = "nav__link" href="contact.html">Contact</a></li>
+          <li class="nav__item">
+            <div class="dropdown">
+              <div class="nav__link">Games</div>
+              <div class="dropdown_content">
+                <a class="nav__link" href="DT.html">Dwarf Miner</a>
+                <a class="nav__link" href="CardCounter.html">Card Counter</a>
+                <a class="nav__link" href="CoinGolf.html">Coin Golf</a>
+                <a class="nav__link" href="NeonOblivion.html">Neon Oblivion</a>
+                <a class="nav__link" href="MyTerrificTrees.html">My Terrific Trees</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Coin Golf</span>
+        </h1>
+        <p style="margin-top:0px; margin-left:10px;">Play in your browser at <a style="color:var(--pink)" href="https://anthony-wessel.itch.io/coin-golf" target="_blank" rel="noopener noreferrer">itch.io</a></p>
+      </div>
+
+    </div>
+
+  </header>
+
+  <section>
+    <div class="row">
+
+    <h2>Highlights</h2>
+    <ul class = "bulleted_list">
+      <li>Save files that store your personal high scores per level</li>
+      <li>Sound efects to provide more satisfying feedback</li>
+      <li>Custom 3D models and textures</li>
+      <li>Built for WebGL so that it is playable in a browser</li>
+    </ul>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="work__box" style="column-count:2; column-gap: 40px">
+        <div class="work__text">
+          <h2>Physics</h2>
+          <p style="font-size:20px;">
+            I used Unity's physics engine to control the coins movement. I created
+            some basic physics materials to control the friction and bouncing, and
+            an initial force is applied based on the player's input. The physics
+            engine handles the rest.
+          </p>
+        </div>
+        <div class="work__image-box">
+          <video autoplay muted loop src="./images/coin_golf.mp4" style="width:100%"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="work__box" style="column-count:2; column-gap: 40px">
+        <div class="work__text">
+          <h2>Polish</h2>
+          <p style="font-size:20px;">
+            I worked on a lot of polish for this game that I wouldn't normally use
+            for a prototype, such as custom art, sound effects, and a GUI. Creating
+            the models is fun and importing sound effects is surprisingly easy.
+          </p>
+        </div>
+        <div class="work__image-box">
+          <img src="./images/ui.png" class="work__image" alt="Project 1" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="row">
+      <div class="work__box">
+
+        <div class="work__text">
+          <h2>Inspiration</h2>
+          <p style="font-size:20px;">
+            This game is inspired by the coin golf tavern game in Fable: The Lost Chapters.
+
+          </p>
+        </div>
+        <div class="work__image-box">
+          <video autoplay muted loop src="./images/fable_coin_golf.mp4" style="width:100%" alt="Project 1" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>

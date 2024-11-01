@@ -36,40 +36,83 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
+          <li class="nav__item"><a class = "nav__link" href="index.html">Home</a></li>
+          <li class="nav__item"><a class = "nav__link" href="contact.html">Contact</a></li>
           <li class="nav__item">
-            <a href="#work" class="nav__link">Work</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+            <div class="dropdown">
+              <div class="nav__link">Games</div>
+              <div class="dropdown_content">
+                <a class="nav__link" href="DT.html">Dwarf Miner</a>
+                <a class="nav__link" href="CardCounter.html">Card Counter</a>
+                <a class="nav__link" href="CoinGolf.html">Coin Golf</a>
+                <a class="nav__link" href="NeonOblivion.html">Neon Oblivion</a>
+                <a class="nav__link" href="MyTerrificTrees.html">My Terrific Trees</a>
+              </div>
+            </div>
           </li>
         </ul>
       </nav>
-    </div>
-    <div class="header__text-box row">
+
       <div class="header__text">
         <h1 class="heading-primary">
           <span>Anthony Wessel</span>
         </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Programmer with an interest in game programming and technical art</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p style="margin-top:0px; margin-left:10px;">Game Programmer</p>
       </div>
+
     </div>
   </header>
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
+    <section>
+      <div class="row" style="height:200px; display:flex; align-items: center;">
+          <img style="height:100%; float:left; margin-right:40px" src="./images/me.png" alt="" />
+          <h3>
+            I'm a game programmer who has spent the last decade learning and refining
+            my skills, with a passion for creating things from scratch.
+          </h3>
+      </div>
+    </section>
 
+    <!-- ***** Work ***** -->
     <section class="work" id="work">
       <div class="row">
         <h2>My Work</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
+
+
+          <!-- Dwarf Terraria -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Dwarf Miner</h3>
+              <p>
+                I started this project in order to get some practice with the
+                Godot game engine. It was a great change of pace from using Unity
+                and I learned some new techniques that I can use in other game
+                engines as well.
+              </p>
+              <ul class="work__list">
+                <li>Godot</li>
+                <li>GDScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="DT.html" class="link__text">
+                  Learn More <span>&rarr;</span>
+                </a>
+                &emsp;
+                <a href="https://anthony-wessel.itch.io/dwarf-miner" class="link__text" target="_blank" rel="noopener noreferrer">
+                  Play Game <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <video autoplay muted loop src="./images/DT.mp4" style="width:100%"/>
+            </div>
+          </div>
 
 
           <!-- Card Counter -->
@@ -88,11 +131,11 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://github.com/Anthony-Wessel/CardCounter" class="link__text">
+                <a href="CardCounter.html" class="link__text">
                   Learn More <span>&rarr;</span>
                 </a>
                 &emsp;
-                <a href="https://anthony-wessel.itch.io/card-counter" class="link__text">
+                <a href="https://anthony-wessel.itch.io/card-counter" class="link__text" target="_blank" rel="noopener noreferrer">
                   Play Game <span>&rarr;</span>
                 </a>
               </div>
@@ -118,11 +161,11 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://github.com/Anthony-Wessel/Coin-Golf" class="link__text">
+                <a href="CoinGolf.html" class="link__text">
                   Learn More <span>&rarr;</span>
                 </a>
                 &emsp;
-                <a href="https://anthony-wessel.itch.io/coin-golf" class="link__text">
+                <a href="https://anthony-wessel.itch.io/coin-golf" class="link__text" target="_blank" rel="noopener noreferrer">
                   Play Game <span>&rarr;</span>
                 </a>
               </div>
@@ -133,81 +176,64 @@
           </div>
 
 
-          <!-- Puzzle PCG -->
+          <!-- Neon Oblivion -->
           <div class="work__box">
             <div class="work__text">
-              <h3>Procedural Jigsaw Puzzle</h3>
+              <h3>Neon Oblivion</h3>
               <p>
-                This was a simple project made in Godot, where I procedurally
-                generated a full set of jigsaw puzzle pieces from scratch.
+                Neon Oblivion is a senior capstone project that I worked on in
+                university. I was part of a large team with about 20 members, and
+                my focus was on technical art for the game. I designed shaders
+                and helped implement the art into our levels.
               </p>
               <ul class="work__list">
-                <li>Godot</li>
-                <li>GDScript</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/Anthony-Wessel/PuzzlePCG" class="link__text">
-                  Learn More <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/PuzzleGenerator_Gif.gif" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-          
-
-          <!-- Dwarf Terraria -->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Terraria-Inspired Game</h3>
-              <p>
-                This so-far unnamed project is ongoing. I am using it as an
-                opportunity to learn a new engine, as well as to practice some
-                non-programming skills. I plan to eventually release it as my
-                first commercial game.
-              </p>
-              <ul class="work__list">
-                <li>Godot</li>
-                <li>GDScript</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/Anthony-Wessel/DwarfTerraria" target="_blank" class="link__text">
-                  Learn More <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/DT_Gif.gif" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-
-          <!-- Ring Quest -->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Ring Quest</h3>
-              <p>
-                This project was made without a game engine, though I did use
-                the Microsoft XNA framework. I wanted to go back to my roots by
-                making a simple game from scratch, which is how I initially
-                learned to program.
-              </p>
-              <ul class="work__list">
-                <li>Microsoft XNA</li>
+                <li>Unity</li>
                 <li>C#</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://github.com/Anthony-Wessel/Project-Ring-Quest" class="link__text">
+                <a href="NeonOblivion.html" class="link__text">
                   Learn More <span>&rarr;</span>
+                </a>
+                &emsp;
+                <a href="https://launchpad-macaque.itch.io/neon-oblivion" class="link__text" target="_blank" rel="noopener noreferrer">
+                  Play Game <span>&rarr;</span>
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/RingQuest_Gif.gif" class="work__image" alt="Project 1" />
+              <video autoplay muted loop src="./images/NeonOblivion.mp4" style="width:100%"/>
+            </div>
+          </div>
+
+
+          <!-- My Terrific Trees -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>My Terrific Trees</h3>
+              <p>
+                This is a class project that I made as part of a 5-person team.
+                The theme for the project was to make a game about taking care of
+                the environment. The objective is to heal the environment by
+                planting trees in safe locations where they won't be cut down.
+              </p>
+              <ul class="work__list">
+                <li>Unity</li>
+                <li>C#</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="MyTerrificTrees.html" class="link__text">
+                  Learn More <span>&rarr;</span>
+                </a>
+                &emsp;
+                <a href="https://simmer.io/@FlightConvert/my-terrific-trees" class="link__text" target="_blank" rel="noopener noreferrer">
+                  Play Game <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/MyTerrificTrees_Gif.gif" class="work__image" alt="Project 1" />
             </div>
           </div>
 
@@ -216,28 +242,107 @@
       </div>
     </section>
 
-
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
+    <section class="work" id="prototypes">
       <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <p>
-              I am an inquisitive and ambitious programmer with a passion for
-              games. I have been learning and growing as a programmer for the
-              past decade, constantly picking up new skills and pushing myself
-              to complete new challenges. I enjoy prototyping features from my
-              favorite games and learning about new algorithms and tools.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="https://github.com/Anthony-Wessel/Portfolio/blob/main/Wessel_Anthony%20Resume.pdf" class="btn">My Resume</a>
+        <h2>Prototypes and Clones</h2>
+
+        <div class="card_container">
+          <div class="card_column">
+            <div class="card">
+              <img class ="card_img" src="./images/PuzzleGenerator_Gif.gif" />
+              <img class="logo-img" src="./images/godot-logo.svg">
+              <h4>Jigsaw</h4>
+              <div class="hidden_description">
+                <p>Procedural jigsaw puzzle generator that turns an image into an
+                array of puzzle pieces.</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class ="card_img" src="./images/RingQuest_Gif.gif" />
+              <img class="logo-img" src="./images/c.svg">
+              <h4>Ring Quest</h4>
+              <div class="hidden_description">
+                <p>Tile exploration prototype built from scratch with C#.</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class ="card_img" src="./images/Bridges_Gif.gif" />
+              <img class="logo-img" src="./images/unity-logo.svg">
+              <img class="logo-img" src="./images/c.svg">
+              <h4>Bridges</h4>
+              <div class="hidden_description">
+                <p>Clone of a mobile game I played. Objective is to connect the
+                islands with the correct number of bridges.</p>
+              </div>
+            </div>
           </div>
 
-          <div class="about__photo-container">
-            <img class="about__photo" src="./images/me.png" alt="" />
+          <div class="card_column">
+            <div class="card">
+              <img class ="card_img" src="./images/Sudoku_Gif.gif" />
+              <img class="logo-img" src="./images/unity-logo.svg">
+              <img class="logo-img" src="./images/c.svg">
+              <h4>Sudoku</h4>
+              <div class="hidden_description">
+                <p>Simple sudoku program.</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class ="card_img" src="./images/Pazaak_Gif.gif" />
+              <img class="logo-img" src="./images/unity-logo.svg">
+              <img class="logo-img" src="./images/c.svg">
+              <h4>Pazaak</h4>
+              <div class="hidden_description">
+                <p>Clone of Pazaak from Star Wars: The Old Republic</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class ="card_img" src="./images/TileFlipper_Gif.gif" />
+              <img class="logo-img" src="./images/unity-logo.svg">
+              <img class="logo-img" src="./images/c.svg">
+              <h4>Tile Flipper</h4>
+              <div class="hidden_description">
+                <p>Make all the tiles match. Flipping a tile also flips adjacent tiles.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card_column">
+            <div class="card">
+              <img class ="card_img" src="./images/Nonogram_Gif.gif" />
+              <img class="logo-img" src="./images/unity-logo.svg">
+              <img class="logo-img" src="./images/c.svg">
+              <h4>Nonogram</h4>
+              <div class="hidden_description">
+                <p>Clone of Nonogram. Objective is to darken the correct squares
+                based on hints on the left and top of the board</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class ="card_img" src="./images/ZenvaRTS_Gif.gif" />
+              <img class="logo-img" src="./images/unity-logo.svg">
+              <img class="logo-img" src="./images/c.svg">
+              <h4>Zenva RTS</h4>
+              <div class="hidden_description">
+                <p>A simple RTS from a online tutorial from Zenva.</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class ="card_img" src="./images/AutoBattler_Gif.gif" />
+              <img class="logo-img" src="./images/unity-logo.svg">
+              <img class="logo-img" src="./images/c.svg">
+              <h4>Auto-battler?</h4>
+              <div class="hidden_description">
+                <p>Auto-battler prototype.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -251,39 +356,34 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          If you have any questions about me or my work, please reach out via email.
+          If you have any questions about me or my work, please reach out via email or LinkedIn.
         </p>
-        <a href="mailto:anthony.d.wessel@gmail.com" class="btn">anthony.d.wessel@gmail.com</a>
+        <div class="row">
+          <ul class="footer__social-links">
+            <li class="footer__social-link-item">
+              <a href="mailto:anthony.d.wessel@gmail.com" class="btn">Anthony.D.Wessel@gmail.com</a>
+            </li>
+            <li class="footer__social-link-item">
+              <a href="https://github.com/Anthony-Wessel" title="Link to Github Profile">
+                <img src="./images/github.svg" class="footer__social-image" alt="Github">
+              </a>
+            </li>
+
+            <li class="footer__social-link-item">
+              <a href=https://www.linkedin.com/in/anthony-wessel-0102521ab/">
+                <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+
       </div>
     </div>
   </section>
 
   <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <ul class="footer__social-links">
-
-        <li class="footer__social-link-item">
-          <a href="https://github.com/Anthony-Wessel" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/anthony-wessel-0102521ab/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-    </div>
-  </footer>
 
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>

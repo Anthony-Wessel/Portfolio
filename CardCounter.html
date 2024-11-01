@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+
+  <title>
+    Card Counter
+  </title>
+
+  <meta name="description" content="Portfolio for Anthony Wessel, Game Programmer, Illinois, United States">
+  <meta name="keywords" content="Anthony Wessel, Unity, Godot, C#, GDScript, Games, Game Programmer, Portfolio, Procedural Generation" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a class = "nav__link" href="index.html">Home</a></li>
+          <li class="nav__item"><a class = "nav__link" href="contact.html">Contact</a></li>
+          <li class="nav__item">
+            <div class="dropdown">
+              <div class="nav__link">Games</div>
+              <div class="dropdown_content">
+                <a class="nav__link" href="DT.html">Dwarf Miner</a>
+                <a class="nav__link" href="CardCounter.html">Card Counter</a>
+                <a class="nav__link" href="CoinGolf.html">Coin Golf</a>
+                <a class="nav__link" href="NeonOblivion.html">Neon Oblivion</a>
+                <a class="nav__link" href="MyTerrificTrees.html">My Terrific Trees</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Card Counter</span>
+        </h1>
+        <p style="margin-top:0px; margin-left:10px;">Play in your browser at <a style="color:var(--pink)" href="https://anthony-wessel.itch.io/card-counter" target="_blank" rel="noopener noreferrer">itch.io</a></p>
+      </div>
+
+    </div>
+
+  </header>
+
+  <section>
+    <div class="row">
+
+    <h2>Highlights</h2>
+    <ul class = "bulleted_list">
+      <li>Four games built on one framework of reusable code and assets</li>
+      <li>Wager system with persistent wallet</li>
+      <li>Multiple card sets to choose from</li>
+      <li>Built for WebGL so that it is playable in a browser</li>
+    </ul>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="work__box">
+
+        <div class="work__text">
+          <h2>Card Counter</h2>
+          <p style="font-size:20px;">
+            This game is inspired by the idea of counting cards, which is done to
+            increase your odds of winning a luck based card game. You can choose
+            a card from any of the four decks. Choosing a red card increases the number
+            based on the number of the card, and choosing a blue card decreases it.
+            The objective is to get through all of the cards without going below
+            zero or above 20.
+          </p>
+        </div>
+        <div class="work__image-box">
+          <img src="./images/CardCounter2_Gif.gif" class="work__image" alt="Project 1" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <h2>Other Game Modes</h2>
+
+      <span style="display:flex; flex-direction:row">
+        <div class="card" >
+          <h4 style="text-align:center">Card Matcher</h4>
+          <img class ="card_img" src="./images/CardMatcher_Gif.gif" />
+        </div>
+
+        <div class="card" >
+          <h4 style="text-align:center">Card Sorter</h4>
+          <img class ="card_img" src="./images/CardSorter_Gif.gif" />
+        </div>
+
+        <div class="card" >
+          <h4 style="text-align:center">Blackjack</h4>
+          <img class ="card_img" src="./images/Blackjack_Gif.gif" />
+        </div>
+      </span>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <div class="work__box">
+
+        <div>
+          <h2>Customizable Cards</h2>
+          <div class="work__image-box" style="margin-left:0; text-align:center">
+            <img src="./images/cards.png" class="work__image" alt="Project 1" />
+          </div>
+
+        </div>
+        <div class="work__text" style = "margin-left:40px; margin-top:50px">
+          <p style="font-size:20px;">
+            In order to add some variety, I built a simple system to automate the
+            creation of new decks of cards. I am able to supply just a few simple
+            images rather than creating each card by hand.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>

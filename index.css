@@ -35,14 +35,14 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    --pink: #32aa58;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
 
     --container-max-width: 1180px;
     --container-normal-width: 800px;
-    --container-medium-width: 700px; 
+    --container-medium-width: 700px;
     --container-small-width: 500px;
 
     --gutter-huge: 12rem;
@@ -72,7 +72,7 @@ body {
     font-weight: 400;
     color: var(--white-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: #111;
     overflow-x: hidden;
 }
 
@@ -178,7 +178,7 @@ p {
 }
 
 @media(max-width: 900px) {
-    p { 
+    p {
         max-width: var(--container-small-width);
     }
 }
@@ -375,6 +375,7 @@ body:not(.user-is-tabbing) a:focus {
     text-decoration: none;
     color: inherit;
     transition: all .2s;
+    cursor:pointer;
 }
 
 .nav__link::after {
@@ -404,9 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/bg3.jpg');
-    height: 100vh;
+    height: 15vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -415,7 +414,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__text {
     position: absolute;
-    top: 50%;
+    top: 15%;
     transform: translateY(-50%);
 }
 
@@ -468,7 +467,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 40%;
 }
 
 .work__list {
@@ -556,7 +555,7 @@ body:not(.user-is-tabbing) a:focus {
     .about__text {
         flex: 0 0 35%;
     }
-    
+
     .about__photo-container {
         flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
@@ -609,5 +608,142 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 500px) {
     .footer {
         padding: var(--gutter-medium) 0;
-    } 
+    }
+}
+
+/* --------------------------------------- */
+/* ----- Cards ----- */
+/* --------------------------------------- */
+
+.card_container {
+  margin:20px 0px 20px 0px
+}
+
+.card_container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card h4 {
+  font-size:20px;
+  color: #000000;
+  background-color: rgba(180,180,180,50);
+  text-align:left;
+  padding-left:5px;
+}
+
+.card div {
+  background-color: #222;
+}
+
+.card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: var(--white-1);
+  margin:3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card_column {
+  float: left;
+  width: 33%;
+  padding: 0px 10px 0px 10px;
+}
+
+
+.card_img {
+  margin:0px;
+  padding:0px;
+  display:block;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 3px 3px 8px 5px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+  text-align: center;
+  transition: 0.5s;
+  background-color: rgba(0,0,0,0);
+  width: 100%;
+  margin-top: 20px;
+  margin-right:20px;
+}
+
+.card:hover {
+  transform:scaleX(110%) scaleY(110%);
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .card_column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.logo-img {
+  float:right;
+  height:30px;
+  padding:5px;
+}
+
+
+.dropdown{
+  position:relative;
+}
+
+.dropdown_content {
+  right:0px;
+  display:flex;
+  flex-direction:column;
+  position:absolute;
+  background-color: #222;
+  outline: 1px solid var(--pink);
+  min-width:160px;
+  z-index: 1;
+  float:right;
+}
+
+.dropdown:not(:hover) .dropdown_content {
+  outline:0px;
+}
+
+.dropdown_content > * {
+  overflow: hidden;
+  height: 45px;
+  padding: 5px 10px;
+  background: rgba(0,0,0,0);
+  white-space: nowrap;
+  transition:
+    0.25s height cubic-bezier(.73,.32,.34,1.5),
+    0.25s padding cubic-bezier(.73,.32,.34,1.5),
+    0.25s margin cubic-bezier(.73,.32,.34,1.5),
+    0.25s 0.1s color,
+    0.1s background-color;
+}
+.dropdown:not(:hover) .dropdown_content > *{
+  visibility: hidden;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  color: rgba(25,25,25,0);
+  transition:
+    0.25s 0.05s height,
+    0.25s 0.05s padding,
+    0.2s 0.05s margin,
+    0.15s color,
+    0.3s visibility;
+  z-index: 99;
+}
+
+.dropdown_content a {
+  margin-left:5px;
+}
+
+.bulleted_list {
+  list-style:circle;
+  font-size:20px;
 }
