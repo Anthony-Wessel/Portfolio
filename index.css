@@ -40,12 +40,12 @@
     --white-1: #e5e5e6da;
 
 
-    --container-max-width: 1180px;
+    --container-max-width: 1480px;
     --container-normal-width: 800px;
     --container-medium-width: 700px;
     --container-small-width: 500px;
 
-    --gutter-huge: 12rem;
+    --gutter-huge: 8rem;
     --gutter-medium: 6rem;
     --gutter-normal: 3rem;
     --gutter-small-1: 2.5rem;
